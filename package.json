@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --fix src",
     "build": "tsc --outDir dist src/index.ts && npx babel dist --out-dir lib",
-    "babel": "npx babel src --out-dir lib"
+    "babel": "npx babel src --out-dir lib",
+    "release": "standard-version",
+    "publish": "npm publish --access public"
   },
   "keywords": [
     "share"
@@ -22,6 +24,12 @@
     "@typescript-eslint/eslint-plugin": "^4.14.0",
     "@typescript-eslint/parser": "^4.14.0",
     "commitizen": "^4.2.3",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.18.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
