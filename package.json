@@ -1,0 +1,27 @@
+{
+  "name": "@sharejs/shared",
+  "version": "0.0.1",
+  "description": "公用的工具函数等",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix src",
+    "build": "tsc --outDir dist src/index.ts && npx babel dist --out-dir lib",
+    "babel": "npx babel src --out-dir lib"
+  },
+  "keywords": [
+    "share"
+  ],
+  "author": "yunm",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@typescript-eslint/eslint-plugin": "^4.14.0",
+    "@typescript-eslint/parser": "^4.14.0",
+    "commitizen": "^4.2.3",
+    "eslint": "^7.18.0"
+  }
+}
