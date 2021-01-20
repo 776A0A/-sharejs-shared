@@ -1,6 +1,6 @@
 {
   "name": "@sharejs/shared",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "公用的工具函数等",
   "main": "./lib/index.js",
   "scripts": {
