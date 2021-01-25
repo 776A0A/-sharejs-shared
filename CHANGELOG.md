@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.0.1](https://github.com/776A0A/sharedjs-shared/compare/v2.0.0...v1.0.1) (2021-01-25)
 
-## [2.0.0](https://github.com/776A0A/sharedjs-shared/compare/v1.0.0...v2.0.0) (2021-01-25)
+## [1.0.0](https://github.com/776A0A/sharedjs-shared/compare/v1.0.0...v2.0.0) (2021-01-25)
 
 
 ### ⚠ BREAKING CHANGES
