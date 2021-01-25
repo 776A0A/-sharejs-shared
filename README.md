@@ -1,1 +1,1 @@
-# @sharejs/shared
+# sharejs-shared

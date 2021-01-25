@@ -1,6 +1,6 @@
 {
   "name": "sharejs-shared",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "公用的工具函数等",
   "main": "./dist/index.js",
   "scripts": {
@@ -10,11 +10,16 @@
     "release": "standard-version",
     "preinstall": "cnpm dedupe"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
   "keywords": [
     "share"
   ],
   "author": "yunm",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
@@ -24,11 +29,16 @@
     "@typescript-eslint/parser": "^4.14.0",
     "commitizen": "^4.2.3",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^7.18.0"
+    "eslint": "^7.18.0",
+    "husky": "^4.3.8"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/776A0A/sharedjs-shared"
   }
 }
