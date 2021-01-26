@@ -8,7 +8,7 @@
     "lint": "eslint --fix src",
     "build": "npx babel src --out-dir dist",
     "release": "standard-version",
-    "preinstall": "cnpm dedupe"
+    "doc": "npx docsify serve docs"
   },
   "husky": {
     "hooks": {
@@ -31,11 +31,12 @@
     "@babel/core": "^7.12.10",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.12.11",
-    "@typescript-eslint/eslint-plugin": "^4.14.0",
-    "@typescript-eslint/parser": "^4.14.0",
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
     "babel-eslint": "^10.1.0",
     "commitizen": "^4.2.3",
     "cz-conventional-changelog": "^3.3.0",
+    "docsify-cli": "^4.4.2",
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier": "^3.3.1",
@@ -51,5 +52,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/776A0A/sharedjs-shared"
-  }
+  },
+  "dependencies": {}
 }
